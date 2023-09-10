@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><ion-icon name="planet-outline"></ion-icon> <ion-icon name="sparkles-outline"></ion-icon></h2>
+        <nav>
+            <a href="#">Menu</a>
+            <a href="#">Info</a>
+            <a href="#">Programas</a>
+            <a href="#">Curso</a>
+            <button class="BotonLogin" id="login">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper" id="wrapper">
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" id="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="bag-outline"></ion-icon></span>
+                    <input type="password" id="con" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn" id="Login">Logearse</button>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="JavaScript/Login.js"></script>
+</body>
+</html>
