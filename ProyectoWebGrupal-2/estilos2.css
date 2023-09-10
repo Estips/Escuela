@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://fotos.perfil.com/2020/06/11/trim/1280/720/detectaron-una-rafaga-rapida-de-radio-procedente-del-espacio-20200611-969968.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .resumen{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 5px solid rgba(0, 0, 0, 0.247);
+    backdrop-filter: blur(10px);
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  header {
+    background-color: #3c83d900;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  footer a {
+    color: #3c83d900;
+    text-decoration: none;
+    background-color: #3c83d900;
+  }
